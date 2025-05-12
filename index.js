@@ -1,12 +1,12 @@
 function Home() {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // smooth scrolling
+      behavior: 'smooth'
     });
   }
   function About() {
     window.scrollTo({
-      top: 730, // pixels from the top
+      top: 730,
       behavior: "smooth"
     });
   }

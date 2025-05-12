@@ -4,25 +4,15 @@
 }
 body{
     background: linear-gradient(black);
-}
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: black; /* Adjust as needed */
-    z-index: 1000; /* Ensures it stays above other elements */
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for better visibility */
+    margin-top: 60px;
 }
 
-body {
-    margin-top: 60px; /* Adjust this value to prevent content from overlapping with the fixed nav */
-}
 .nav{
     display: flex;
     flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: rgb(67, 67, 67);
     color: white;
     font-size: x-large;
@@ -31,7 +21,7 @@ body {
 }
 .nav-left{
     padding-left: 20px;
-    padding-right: 53%;
+    padding-right: 56%;
 }
 .nav-right{
     display: flex;
@@ -67,7 +57,9 @@ body {
     margin-top: 12%;
 }
 #hello{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
+    font-weight: 500;
     color: rgb(255, 119, 0);
     padding-left: 250px;
 }
@@ -142,6 +134,7 @@ body {
     z-index: -1;
     font-weight: 900;
 }
+
 #resumebtn{
     width: 110px;
     background-color: rgb(255, 166, 0);
@@ -289,7 +282,7 @@ body {
 }
 .projectsbox{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
 }
 .projects-left{
     display: flex;
